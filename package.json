@@ -1,0 +1,19 @@
+{
+  "name": "react-practice",
+  "version": "1.0.0",
+  "description": "React practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alisonjonck/react-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alisonjonck/react-practice/issues"
+  },
+  "homepage": "https://github.com/alisonjonck/react-practice#readme"
+}
