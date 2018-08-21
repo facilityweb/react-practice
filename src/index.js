@@ -1,23 +1,14 @@
 
 import React from "react";
 import ReactDOM from "react-dom";
-
-const Parent = (props) => {
-    const style = { 'background-color': 'red' };
-    return (
-        <div style={style}>
-            <h1>Hello  {props.children}</h1>
-        </div>
-    );
-};
+import Grid from './components/Grid';
 
 const Index = () => {
     return (
-        <Parent>
+        <Grid>
             World!
-        </Parent>
+        </Grid>
     );
 };
 
 ReactDOM.render(<Index />, document.getElementById("app"));
-
