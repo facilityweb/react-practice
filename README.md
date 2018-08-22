@@ -19,7 +19,7 @@ React practice with enzyme and mocha
 ## Run tests with debug
 
     $ npm run test-debug
-Open chrome://inspect on your browser
+On Chrome open chrome://inspect
 
 ## Start & watch
 
