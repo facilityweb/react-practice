@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha --require babel-core/register -r ./src/tests/setup/setup.js \"./src/tests/**/*.test.js*\"",
     "test-debug": "mocha --inspect-brk --require babel-core/register -r ./src/tests/setup/setup.js \"./src/tests/**/*.test.js*\"",
-    "start": "webpack --watch --mode development",
+    "start": "webpack-dev-server --mode development",
     "build": "webpack"
   },
   "repository": {
@@ -32,7 +32,8 @@
     "jsdom-global": "^3.0.2",
     "mocha": "^5.2.0",
     "webpack": "^4.16.5",
-    "webpack-cli": "^3.1.0"
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
   },
   "dependencies": {
     "react": "^16.4.2",
