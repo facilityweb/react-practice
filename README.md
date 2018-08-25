@@ -1,4 +1,7 @@
 # React-practice
+
+[![Build Status](https://travis-ci.org/alisonjonck/react-practice.svg?branch=master)](https://travis-ci.org/alisonjonck/react-practice) 
+
 React practice with enzyme and mocha
 
 ## Requirements
@@ -19,7 +22,7 @@ React practice with enzyme and mocha
 ## Run tests with debug
 
     $ npm run test-debug
-Open chrome://inspect on your browser
+On Chrome open chrome://inspect
 
 ## Start & watch
 
