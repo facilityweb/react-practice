@@ -1,4 +1,7 @@
 # React-practice
+
+[![Build Status](https://travis-ci.org/alisonjonck/react-practice.svg?branch=master)](https://travis-ci.org/alisonjonck/react-practice) 
+
 React practice with enzyme and mocha
 
 ## Requirements
