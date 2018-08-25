@@ -1,14 +1,27 @@
-import React from 'react';
+import React, { Component } from 'react';
 import TextView from './TextView';
 
 const style = { backgroundColor: 'red' };
 
-const Grid = (props) => {
-    return (
-        <div style={style}>
-            <TextView>Hello {props.children}</TextView>
-        </div>
-    );
-};
+class Grid extends Component {
+
+    constructor() {
+        super();
+    }
+
+    onClickHandler(event){
+        console.log('clicked on Grid.onClickHandler');
+    }
+
+    render() {
+        var me = this, props = me.props;
+
+        return (
+            <div style={style} onClick={me.onClickHandler} {...props}>
+                <TextView>Hello {props.children}</TextView>
+            </div>
+        );
+    }
+}
 
 export default Grid;
