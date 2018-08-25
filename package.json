@@ -7,7 +7,8 @@
     "test": "nyc mocha --require babel-core/register -r ./src/tests/setup/setup.js \"./src/tests/**/*.test.js*\"",
     "test-debug": "mocha --inspect-brk --require babel-core/register -r ./src/tests/setup/setup.js \"./src/tests/**/*.test.js*\"",
     "start": "webpack-dev-server --mode development",
-    "build": "webpack"
+    "build": "webpack",
+    "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
   },
   "nyc": {
     "include": [
