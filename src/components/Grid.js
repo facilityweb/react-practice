@@ -4,13 +4,12 @@ import TextView from './TextView';
 const style = { backgroundColor: 'red' };
 
 class Grid extends Component {
-
+    
     constructor() {
         super();
     }
 
     onClickHandler(event){
-        console.log('clicked on Grid.onClickHandler');
     }
 
     render() {
