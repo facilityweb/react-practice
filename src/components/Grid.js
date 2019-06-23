@@ -5,10 +5,6 @@ const style = { backgroundColor: 'red' };
 
 class Grid extends Component {
     
-    constructor() {
-        super();
-    }
-
     onClickHandler(event){
     }
 
